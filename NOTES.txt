@@ -1,0 +1,58 @@
+Side-note: Remember this application is note a replica of notion, 
+it is rather a note-taking app based on it
+___________________________________________________________________________________________________
+                                    /* Foundational TODOs *\                       
+___________________________________________________________________________________________________
+
+- [ ] Build Sidebar
+    - [ ] New page button
+    - [ ] Trash bin, templates, import
+    - [ ] Settings
+    - [ ] Quick Find
+
+- [ ] Build authentication with firebase
+    - [ ] Store display name
+    - [ ] Store uid
+    - [ ] Store google photo
+    - [ ] Store users customized settings (personal plan or shared plan, type of work, etc.)
+
+- [ ] Add new page functionality
+    - [ ] Add templates feature
+    - [ ] Duplicate pages
+
+- [ ] Add note-taking functionality 
+    - [ ] Stored notes
+    - [ ] Note-taking / typing functionality
+    - [ ] "/" settings feature
+    - [ ] "ctrl + k" to quick-find notes
+
+- [ ] Contact + Help Functionality 
+    - [ ] Build Button
+    - [ ] Build-in support channel
+___________________________________________________________________________________________________
+                                    /* Custom Features *\                       
+___________________________________________________________________________________________________
+
+Ideas:
+- Readwise Features
+- Web Clipper
+- Useful Presets
+- Better templates
+
+___________________________________________________________________________________________________
+                                /* Citation --- Help Assets *\   
+___________________________________________________________________________________________________
+
+Sidebar Flex Sizing: https://stackoverflow.com/questions/36570250/flex-items-25-height
+
+
+
+___________________________________________________________________________________________________
+                                        /* Tech Stack *\
+___________________________________________________________________________________________________
+- Typescript
+- React.js
+- Babel
+- JSX
+- CSS
+- Firebase

@@ -1,0 +1,72 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 11.5%;
+  flex: 1;
+  /* background-color: rgba(25, 25, 25, 0.924); old( rgba(25, 25, 25, 0.888); ) */
+}
+
+.sidebar__settings {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding-bottom: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(25, 25, 25, 0.924);
+}
+
+.sidebar__settings:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: rgba(25, 25, 25, 0.864);
+}
+
+.sidebar__settings > h3 {
+  position: relative;
+  font-family: "Segoe UI", ui-sans-serif, -apple-system, BlinkMacSystemFont, Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 21px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: start;
+  text-indent: 0px;
+  color: #FFFFFF;
+  bottom: -9px;
+  margin-left: 6px;
+}
+
+.sidebar__settings > .sidebar__KeyboardArrowLeft {
+  position: relative;
+  display: flex;
+  color: grey;
+  margin-top: 8px;
+  margin-left: 40px;
+}
+
+.sidebar__settings > .sidebar__KeyboardArrowLeft:hover {
+  transition: 0.3s;
+  background-color: rgba(25, 25, 25, 0.806);
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+.sidebar__settings > .sidebar__avatar {
+  position: relative;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+}/*# sourceMappingURL=Sidebar.css.map */
